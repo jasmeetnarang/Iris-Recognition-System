@@ -1,6 +1,7 @@
 ## Iris Recognition System
 
 
+
 1. Acquire Image: the iris dataset was provided in the AWS s3 cloud, to access the dataset we required an AWS educate account and AWS CLI to get multiple files.
 2. Iris Segmentation: The main step in iris segmentation is to find the inner circular boundary and outer circular boundary. To do so we use the Hough transform algorithm for circle detection. In this the circle candidates are produced by voting in the Hough parameter space and then selecting local maxima in an accumulator matrix. In our code we use an inbuilt function from OpenCV to get the inner and outer circles.
 Then, the inner and outer circle boundaries are used to ‘unwrap’ the iris region to a rectangle.
@@ -21,4 +22,5 @@ Following is the process to run the source code:
 
 ##### Contributors:
 Jasmeet Narang
+
 Shirish Mecheri Vogga
