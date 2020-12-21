@@ -11,7 +11,7 @@ Then, the inner and outer circle boundaries are used to ‘unwrap’ the iris re
 
 Following is the process to run the source code:
 
-    #To simply run the network measure on the saved data
+    #To simply run the files:
     python iris_recognition_lga4000.py
     python iris_recognition_lga2200.py	
 
