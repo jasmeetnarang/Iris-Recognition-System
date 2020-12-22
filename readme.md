@@ -13,7 +13,7 @@ Following is the process to run the source code:
 
     #To simply run the files:
     python iris_recognition_lga4000.py
-    python iris_recognition_lga2200.py	
+    python iris_recognitionv_lga2200.py	
 
 
 ##### Additional Information:
